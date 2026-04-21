@@ -60,8 +60,8 @@ const ProfileCard = () => {
             <div className="absolute inset-0 bg-primary/10 rounded-2xl blur-3xl" />
             <div className="w-32 h-32 rounded-full border-4 border-primary/30 p-1 mb-4 relative z-10 shadow-[0_0_15px_rgba(14,165,233,0.5)]">
               {/* Profile Photo Placeholder */}
-              <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center overflow-hidden">
-                <span className="text-4xl text-slate-400">AK</span>
+              <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center overflow-hidden bg-black">
+                <img src="/logo.png" alt="Profile" className="w-full h-full object-cover scale-110" />
               </div>
             </div>
             <h3 className="text-2xl font-bold text-white relative z-10">Adarsh Kumar</h3>

@@ -25,11 +25,9 @@ export default function Navbar() {
   return (
     <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'glass-nav py-3' : 'bg-transparent py-5'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-        <a href="#" className="flex items-center gap-2 group">
-          <div className="p-2 bg-primary/20 rounded-lg group-hover:bg-primary/30 transition-colors">
-            <Code2 className="w-6 h-6 text-primary" />
-          </div>
-          <span className="font-bold text-xl tracking-tight">Adarsh<span className="text-gradient">.dev</span></span>
+        <a href="#" className="flex items-center gap-3 group">
+          <img src="/logo.png" alt="Adarsh Kumar Logo" className="w-10 h-10 object-contain rounded-full border border-white/10 shadow-[0_0_15px_rgba(255,255,255,0.1)] group-hover:scale-105 transition-transform" />
+          <span className="font-bold text-xl tracking-tight hidden sm:block">Adarsh<span className="text-gradient">.dev</span></span>
         </a>
 
         {/* Desktop Nav */}

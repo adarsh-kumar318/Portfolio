@@ -43,10 +43,10 @@ export default function Hero() {
           </div>
 
           <div className="flex items-center gap-5">
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="p-3 glass-panel rounded-full hover:bg-white/10 transition-colors text-slate-300 hover:text-white">
+            <a href="https://github.com/adarsh-kumar318" target="_blank" rel="noreferrer" className="p-3 glass-panel rounded-full hover:bg-white/10 transition-colors text-slate-300 hover:text-white">
               <FaGithub className="w-5 h-5" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="p-3 glass-panel rounded-full hover:bg-white/10 transition-colors text-blue-400 hover:text-blue-300">
+            <a href="https://www.linkedin.com/in/adarsh-kumar" target="_blank" rel="noreferrer" className="p-3 glass-panel rounded-full hover:bg-white/10 transition-colors text-blue-400 hover:text-blue-300">
               <FaLinkedin className="w-5 h-5" />
             </a>
           </div>
